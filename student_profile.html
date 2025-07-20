@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Welcome, {{ student[1] }}</h2>
+    <p><strong>Course:</strong> {{ student[2] }}</p>
+    <p><strong>School:</strong> {{ student[3] }}</p>
+    <a href="/student_logout">Logout</a>
+</body>
+</html>
